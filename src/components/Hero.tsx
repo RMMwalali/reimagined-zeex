@@ -23,12 +23,12 @@ const Hero = async () => {
       </svg>
       <div className='max-w-7xl mx-auto grid grid-cols-1 gap-6 lg:gap-0 md:grid-cols-2 items-center justify-between px-4 sm:px-6 lg:px-8 pt-10 sm:pt-20 pb-20 sm:pb-28'>
         <div className='flex flex-col gap-y-4 justify-center items-center text-center sm:items-start sm:text-start'>
-          <Suspense fallback={<GithubStarsSkeleton />}>
+          {/* <Suspense fallback={<GithubStarsSkeleton />}>
             <GithubStars />
-          </Suspense>
+          </Suspense> */}
           <h1 className='font-bold tracking-tighter text-3xl sm:text-5xl lg:text-6xl max-w-sm sm:max-w-4xl'>
-            An open source e-commerce project built by{' '}
-            <span className='text-emerald-600'>inifarhan</span>
+            Welcome to {' '}
+            <span className='text-emerald-600'>CrossTech</span>
           </h1>
           <h2 className='max-w-md sm:max-w-[42rem] leading-normal text-muted-foreground text-sm sm:text-xl sm:leading-8'>
             Buy and sell skateboarding gears from independent brands and stores
