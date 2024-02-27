@@ -38,7 +38,7 @@
     "lucide-react": "^0.292.0",
     "midtrans-client": "^1.3.1",
     "nanoid": "^5.0.4",
-    "next": "^14.1.1-canary.69",
+    "next": "^14.1.0",
     "next-auth": "^4.24.4",
     "react": "^18",
     "react-dom": "^18",
