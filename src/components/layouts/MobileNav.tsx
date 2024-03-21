@@ -34,7 +34,7 @@ const MobileNav = () => {
               onClick={() => setIsOpen(false)}
             >
               <Icons.logo className='mr-2 h-4 w-4' aria-hidden='true' />
-              <span className='font-bold'>Skaters</span>
+              <span className='font-bold'>Circuit City</span>
               <span className='sr-only'>Home</span>
             </Link>
             <div className='text-sm'>
@@ -44,8 +44,8 @@ const MobileNav = () => {
                 className='w-full'
               >
                 <AccordionItem value='item-1'>
-                  <AccordionTrigger>My Dashboard</AccordionTrigger>
-                  <AccordionContent>
+                  {/* <AccordionTrigger>My Dashboard</AccordionTrigger> */}
+                  {/* <AccordionContent>
                     <div className='flex flex-col gap-y-2 text-muted-foreground'>
                       <Link
                         onClick={() => setIsOpen(false)}
@@ -60,7 +60,7 @@ const MobileNav = () => {
                         Stores
                       </Link>
                     </div>
-                  </AccordionContent>
+                  </AccordionContent> */}
                 </AccordionItem>
                 <AccordionItem value='item-2'>
                   <AccordionTrigger>Lobby</AccordionTrigger>
@@ -90,27 +90,27 @@ const MobileNav = () => {
                     <div className='flex flex-col gap-y-2 text-muted-foreground'>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=skateboards'
+                        href='/products?category=student'
                       >
-                        Skateboards
+                        Students
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=clothing'
+                        href='/products?category=gamer'
                       >
-                        Clothing
+                        Gamer
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=shoes'
+                        href='/products?category=business'
                       >
-                        Shoes
+                        Business Professionals
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=accessories'
+                        href='/products?category=creator'
                       >
-                        Accessories
+                        Content Creators
                       </Link>
                     </div>
                   </AccordionContent>

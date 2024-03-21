@@ -15,7 +15,7 @@ const DesktopNav = () => {
     <div className='hidden lg:flex gap-x-8 items-center'>
       <Link href='/' className='flex space-x-2'>
         <Icons.logo className='h-6 w-6' aria-hidden='true' />
-        <span className='hidden font-bold lg:inline-block'>Skaters</span>
+        <span className='hidden font-bold lg:inline-block'>Circuit City</span>
         <span className='sr-only'>Home</span>
       </Link>
       <NavigationMenu>
@@ -28,8 +28,8 @@ const DesktopNav = () => {
                   <NavigationMenuLink asChild>
                     <Link className='flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md' href='/'>
                       <Icons.logo className='h-6 w-6' />
-                      <div className='mb-2 mt-4 text-lg font-medium'>Skaters</div>
-                      <p className='text-sm leading-tight text-muted-foreground'>An open source ecommerce skateshop built with everything new in Next.js</p>
+                      <div className='mb-2 mt-4 text-lg font-medium'>Circuit City</div>
+                      <p className='text-sm leading-tight text-muted-foreground'>Welcome to our laptop emporium, where we have revolutionized the way you shop for your perfect laptop.</p>
                     </Link>
                   </NavigationMenuLink>
                 </li>
@@ -39,9 +39,9 @@ const DesktopNav = () => {
                 <ListItem href='/#categories' title='Categories'>
                   See all categories we have
                 </ListItem>
-                <ListItem href='/dashboard/stores' title='Create store'>
+                {/* <ListItem href='/dashboard/stores' title='Create store'>
                   Create store and start selling products
-                </ListItem>
+                </ListItem> */}
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
@@ -49,17 +49,17 @@ const DesktopNav = () => {
             <NavigationMenuTrigger>Categories</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className='grid w-[400px] gap-3 p-6 md:w-[500px] md:grid-cols-2'>
-                <ListItem href='/products?category=skateboards' title='Skateboards'>
-                  Explore the skateboards category
+                <ListItem href='/products?category=student' title='Students'>
+                  Explore the Students category
                 </ListItem>
-                <ListItem href='/products?category=clothing' title='Clothing'>
-                  Explore the clothing category
+                <ListItem href='/products?category=gamer' title='Gamer'>
+                  Explore the Gamers category
                 </ListItem>
-                <ListItem href='/products?category=shoes' title='Shoes'>
-                  Explore the shoes category
+                <ListItem href='/products?category=business' title='Business Professionals'>
+                  Explore the Business category
                 </ListItem>
-                <ListItem href='/products?category=accessories' title='Accessories'>
-                  Explore the accessories category
+                <ListItem href='/products?category=creator' title='Content Creators'>
+                  Explore the Creators category
                 </ListItem>
               </ul>
             </NavigationMenuContent>

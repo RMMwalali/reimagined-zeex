@@ -6,19 +6,27 @@ export const ORDER_INFINITE_SCROLL_LIMIT = 3
 
 export const categories: Category[] = [
   {
-    name: 'Skateboards',
-    slug: 'skateboards',
+    name: 'Students',
+    slug: 'student',
   },
   {
-    name: 'Clothing',
-    slug: 'clothing',
+    name: 'Business Professionals',
+    slug: 'business',
   },
   {
-    name: 'Shoes',
-    slug: 'shoes',
+    name: 'Gamers',
+    slug: 'gamer',
   },
   {
-    name: 'Accessories',
-    slug: 'accessories',
+    name: 'Content Creators',
+    slug: 'creator',
+  },
+  {
+    name: 'Casual Users',
+    slug: 'casual',
+  },
+  {
+    name: 'Travelers',
+    slug: 'traveler',
   },
 ]
