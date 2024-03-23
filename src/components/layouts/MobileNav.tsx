@@ -77,9 +77,9 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/dashboard/stores'
+                        href='#'
                       >
-                        Create store
+                        Take Our Survey
                       </Link>
                     </div>
                   </AccordionContent>
