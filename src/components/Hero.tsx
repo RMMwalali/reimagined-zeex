@@ -31,7 +31,7 @@ const Hero = async () => {
             <span className='text-blue-500'>Circuit City</span>
           </h1>
           <h2 className='max-w-md sm:max-w-[42rem] leading-normal text-muted-foreground text-sm sm:text-xl sm:leading-8'>
-            Buy laptops from our laptop emporium, where we've revolutionized the way you shop for your perfect laptop.
+            Buy laptops from our laptop emporium, where we have revolutionized the way you shop for your perfect laptop.
           </h2>
           <div className='flex flex-wrap items-center gap-4'>
             <a href='/products' className={cn(buttonVariants())}>
