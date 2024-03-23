@@ -39,9 +39,9 @@ const DesktopNav = () => {
                 <ListItem href='/#categories' title='Categories'>
                   See all categories we have
                 </ListItem>
-                {/* <ListItem href='/dashboard/stores' title='Create store'>
-                  Create store and start selling products
-                </ListItem> */}
+                <ListItem href='#' title='Take our Survey'>
+                  Take our Survey
+                </ListItem>
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
