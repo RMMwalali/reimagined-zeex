@@ -62,16 +62,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Circuit City',
     description: 'Welcome to our laptop emporium, where we have revolutionized the way you shop for your perfect laptop. Say goodbye to endless scrolling and comparing – we have streamlined the process by categorizing our extensive selection into user groups tailored to your needs.',
-    url: 'https://skaters-inifarhan.vercel.app/',
+    url: 'https://reimagined-zeex.vercel.app/',
     siteName: 'Circuit City',
-    images: 'https://skaters-inifarhan.vercel.app/images/screenshoot.PNG',
+    images: 'https://res.cloudinary.com/dtnbwgpca/image/upload/v1711175488/quqizdg5pv5ayjadituv.png',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Circuit City',
     description: 'Welcome to our laptop emporium, where we have revolutionized the way you shop for your perfect laptop.',
-    images: ['https://skaters-inifarhan.vercel.app/images/screenshoot.PNG'],
+    images: ['https://res.cloudinary.com/dtnbwgpca/image/upload/v1711175488/quqizdg5pv5ayjadituv.png'],
   },
 }
 
