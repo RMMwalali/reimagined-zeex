@@ -39,7 +39,7 @@ const DesktopNav = () => {
                 <ListItem href='/#categories' title='Categories'>
                   See all categories we have
                 </ListItem>
-                <ListItem href='#' title='Take our Survey'>
+                <ListItem href='https://c4u2atehbot.typeform.com/to/EtpC64sP' title='Take our Survey'>
                   Take our Survey
                 </ListItem>
               </ul>

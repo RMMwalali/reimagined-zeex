@@ -77,7 +77,7 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='#'
+                        href='https://c4u2atehbot.typeform.com/to/EtpC64sP'
                       >
                         Take Our Survey
                       </Link>

@@ -38,7 +38,7 @@ const Hero = async () => {
               Buy now
             </a>
             <Link
-              href='/dashboard/stores'
+              href='https://c4u2atehbot.typeform.com/to/EtpC64sP'
               className={cn(
                 buttonVariants({
                   variant: 'outline',
