@@ -68,5 +68,8 @@
     "tailwindcss": "^3.3.0",
     "ts-node": "^10.9.1",
     "typescript": "^5"
+  },
+  "volta": {
+    "node": "20.12.0"
   }
 }

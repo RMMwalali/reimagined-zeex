@@ -3,6 +3,9 @@ import { NextAuthOptions, getServerSession } from 'next-auth'
 import GoogleProvider from 'next-auth/providers/google'
 import prisma from './db'
 
+// Get the allowed emails from the environment variable
+const allowedEmails = process.env.ALLOWED_EMAILS?.split(',');
+
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
@@ -37,12 +40,19 @@ export const authOptions: NextAuthOptions = {
         session.user.email = token.email
         session.user.image = token.picture
       }
-
       return session
     },
+    async signIn({ user, account, profile }) {
+      if (user?.email && allowedEmails?.includes(user.email)) {
+        return true;
+      } else {
+        return false;
+      }
+    },    
     redirect() {
       return '/'
     },
+
   },
 }
 
